@@ -33,11 +33,11 @@ I deliver **technical talks, workshops, and blog content** on **MongoDB, AI, and
 ---
 
 ## 🌱 Fun Projects & Experiments  
-- 🕵️ **AI-Powered Recruiting Assistant** – A tool that enhances job matching with AI.  
-- 📌 **SA Enablement Dashboard** – A system for tracking SA training progress.  
-- 🔍 **Fraud Detection in Banking** – A sample app demonstrating fraud detection with MongoDB - [MongoDBank.com(https://mongodbank.vercel.app)
-- 💬 **[DeepDJT](https://deepdjt.com]** - Chat with AI POTUS
-- 🆒 **[MermaidGPT](https://mermaidgpt.com)** - Build Mermaid Diagrams with descriptive statements  
+- 🕵️ AI-Powered Recruiting Assistant – A tool that enhances job matching with AI.  
+- 📌 SA Enablement Dashboard – A system for tracking SA training progress.  
+- 🔍 Fraud Detection in Banking – A sample app demonstrating fraud detection with MongoDB - [MongoDBank.com(https://mongodbank.vercel.app)
+- 💬 [DeepDJT](https://deepdjt.com) - Chat with AI POTUS
+- 🆒 [MermaidGPT](https://mermaidgpt.com) - Build Mermaid Diagrams with descriptive statements  
 
 ---
 
