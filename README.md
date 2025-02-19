@@ -37,7 +37,9 @@ I deliver **technical talks, workshops, and blog content** on **MongoDB, AI, and
 - 📌 **SA Enablement Dashboard** – A system for tracking SA training progress.  
 - 🔍 **Fraud Detection in Banking** – A sample app demonstrating fraud detection with MongoDB.  
 - 🏗️ **Authentication as a Service** – A **SaaS authentication platform** with free & paid tiers.  
-- 🎭 **Animation & Lip Sync Project** – A React-based animation tool for phonetic visualization.  
+- 🎭 **Animation & Lip Sync Project** – A React-based animation tool for phonetic visualization.
+- 💬 **DeepDJT** - Chat with AI POTUS
+- 🆒 **MermaidGPT** - Build Mermaid Diagrams with descriptive statements  
 
 ---
 
