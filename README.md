@@ -37,8 +37,9 @@ I deliver **technical talks, workshops, and blog content** on **MongoDB, AI, and
 - 📌 SA Enablement Dashboard – A system for tracking SA training progress.  
 - 🔍 Fraud Detection in Banking – A sample app demonstrating fraud detection with MongoDB - [MongoDBank.com(https://mongodbank.vercel.app)
 - 💬 [DeepDJT](https://deepdjt.com) - Chat with AI POTUS
-- 🆒 [MermaidGPT](https://mermaidgpt.com) - Build Mermaid Diagrams with descriptive statements  
-
+- 🆒 [MermaidGPT](https://mermaidgpt.com) - Build Mermaid Diagrams with descriptive statements
+- 🗺️ [AI Project Mapper](https://mrlynn.github.io/ai-project-mapper) - Generate LLM-friendly project summaries to help AI assistants understand your codebase.
+- 🧠 [MongoDB-RAG](https://mongodb-developer.github.io/mongodb-rag) - This library enables developers to efficiently perform similarity search, caching, batch processing, and indexing for fast and accurate retrieval of relevant data.
 ---
 
 ## 📬 Connect With Me  
