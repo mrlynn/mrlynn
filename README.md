@@ -37,6 +37,7 @@ I deliver **technical talks, workshops, and blog content** on **MongoDB, AI, and
 ---
 
 ## 🌱 Fun Projects & Experiments  
+- 🤖 NetPad.io - An AI-Powered, AI Agentic Workflow Diagraming and builder.  Build Agents... agent workflows visually. [https://netpad.io](https://netpad.io)
 - 🕵️ AI-Powered Recruiting Assistant – A tool that enhances job matching with AI.  
 - 📌 SA Enablement Dashboard – A system for tracking SA training progress.  
 - 🔍 Fraud Detection in Banking – A sample app demonstrating fraud detection with MongoDB - [MongoDBank.com(https://mongodbank.vercel.app)
