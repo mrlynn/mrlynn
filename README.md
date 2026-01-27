@@ -6,12 +6,12 @@ I’m a **Principal Developer Advocate at MongoDB**, focused on **helping develo
 ---
 
 ## 🚀 What I’m Working On  
-- 🔹 **Developer Enablement** – Creating resources for MongoDB users to master data modeling, aggregation, and AI-powered applications.  
-- 🔹 **AI & Vector Search** – Exploring AI use cases with **RAG (Retrieval-Augmented Generation)**, vector search, and AI-powered assistants.  
-- 🔹 **Open Source & Sample Projects** – Building **sample applications, boilerplate projects, and labs** for developers to experiment with.  
-- 🔹 **MongoDB Developer Days** – Designing **engaging technical workshops** to help developers improve their MongoDB skills.  
-- 🔹 **AI Assistants** – Developing **AI-powered tools** for knowledge management, recruitment, and gamified learning.
-- 🔗 View [More Projects](https://mlynn.org/projects)
+- **Developer Enablement** – Creating resources for MongoDB users to master data modeling, aggregation, and AI-powered applications.  
+- **AI & Vector Search** – Exploring AI use cases with **RAG (Retrieval-Augmented Generation)**, vector search, and AI-powered assistants.  
+- **Open Source & Sample Projects** – Building **sample applications, boilerplate projects, and labs** for developers to experiment with.  
+- **MongoDB Developer Days** – Designing **engaging technical workshops** to help developers improve their MongoDB skills.  
+- **AI Assistants** – Developing **AI-powered tools** for knowledge management, recruitment, and gamified learning.
+- View [More Projects](https://mlynn.org/projects)
 
 ---
 
@@ -27,7 +27,6 @@ I’m a **Principal Developer Advocate at MongoDB**, focused on **helping develo
 
 ## 🎤 Speaking & Writing  
 I deliver **technical talks, workshops, and blog content** on **MongoDB, AI, and modern application development**. Some highlights:  
-
 - 🟢 **AWS re:Invent** – Lightning talk on the **Evolution of Data to Intelligence**  
 - 🟢 **MongoDB Developer Days** – Hands-on training sessions for developers  
 - 🟢 **GitHub Blog** – Writing about **AI, vector search, and database best practices**
