@@ -6,12 +6,34 @@ I’m a **Principal Developer Advocate at MongoDB**, focused on **helping develo
 ---
 
 ## 🚀 What I’m Working On  
+- **vai (Voyage AI CLI)** – Building RAG pipelines with Voyage AI embeddings and MongoDB Atlas Vector Search. CLI, web playground, and desktop app.  
 - **Developer Enablement** – Creating resources for MongoDB users to master data modeling, aggregation, and AI-powered applications.  
 - **AI & Vector Search** – Exploring AI use cases with **RAG (Retrieval-Augmented Generation)**, vector search, and AI-powered assistants.  
 - **Open Source & Sample Projects** – Building **sample applications, boilerplate projects, and labs** for developers to experiment with.  
 - **MongoDB Developer Days** – Designing **engaging technical workshops** to help developers improve their MongoDB skills.  
 - **AI Assistants** – Developing **AI-powered tools** for knowledge management, recruitment, and gamified learning.
 - View [More Projects](https://mlynn.org/projects)
+
+---
+
+## 🎯 vai – Voyage AI Playground  
+**Command:** `vai` | **Repo:** [github.com/mrlynn/voyageai-cli](https://github.com/mrlynn/voyageai-cli)
+
+A comprehensive toolkit for building **RAG (Retrieval-Augmented Generation)** pipelines using Voyage AI embeddings and MongoDB Atlas Vector Search. Three interfaces: **CLI** (22 commands), **web playground**, and **standalone desktop app** with OS keychain integration.
+
+- ** Web ** - [https://vaicli.com](https://vaicli.com)
+- ** Docs ** - [https://docs.vaicli.com](https://docs.vaicli.com)
+- ** NPM ** - [https://www.npmjs.com/package/voyageai-cli](https://www.npmjs.com/package/voyageai-cli)
+- ** GIT ** - [https://github.com/mrlynn/voyageai-cli](https://github.com/mrlynn/voyageai-cli)
+
+**Highlights:**
+- **End-to-end pipeline** – `vai pipeline ./docs/` from documents to searchable vector DB
+- **5 chunking strategies** – fixed, sentence, paragraph, recursive, markdown-aware
+- **Two-stage retrieval** – embed → vector search → rerank with `vai query`
+- **8 benchmark subcommands** – latency, cost, asymmetric retrieval, quantization
+- **Interactive playground** – 7 tabs: Embed, Compare, Search, Benchmark, Explore, About, Settings
+
+*Community tool – not an official MongoDB or Voyage AI product*
 
 ---
 
@@ -36,6 +58,7 @@ I deliver **technical talks, workshops, and blog content** on **MongoDB, AI, and
 ---
 
 ## 🌱 Fun Projects & Experiments  
+- 🚀 **[vai](https://github.com/mrlynn/voyageai-cli)** – Voyage AI CLI & Playground. Build RAG pipelines with Voyage AI embeddings + MongoDB Atlas Vector Search. `npm i -g voyageai-cli` then `vai playground`
 - 🤖 NetPad.io - An AI-Powered, AI Agentic Workflow Diagraming and builder.  Build Agents... agent workflows visually. [https://netpad.io](https://netpad.io)
 - 🕵️ AI-Powered Recruiting Assistant – A tool that enhances job matching with AI.  
 - 📌 SA Enablement Dashboard – A system for tracking SA training progress.  
