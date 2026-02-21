@@ -1,77 +1,113 @@
-# Michael Lynn | Principal Developer Advocate @ MongoDB  
+<div align="center">
 
-### 👋 Welcome to My GitHub!  
-I’m a **Principal Developer Advocate at MongoDB**, focused on **helping developers** build modern applications with **AI, vector search, and database technologies**. I specialize in **developer enablement**, **technical education**, and **hands-on workshops** that bring MongoDB’s capabilities to life.  
+# Hey, I'm Michael Lynn 👋
 
----
+### Principal Developer Advocate @ MongoDB | 25+ Years in Enterprise Infrastructure
 
-## 🚀 What I’m Working On  
-- **vai (Voyage AI CLI)** – Building RAG pipelines with Voyage AI embeddings and MongoDB Atlas Vector Search. CLI, web playground, and desktop app.  
-- **Developer Enablement** – Creating resources for MongoDB users to master data modeling, aggregation, and AI-powered applications.  
-- **AI & Vector Search** – Exploring AI use cases with **RAG (Retrieval-Augmented Generation)**, vector search, and AI-powered assistants.  
-- **Open Source & Sample Projects** – Building **sample applications, boilerplate projects, and labs** for developers to experiment with.  
-- **MongoDB Developer Days** – Designing **engaging technical workshops** to help developers improve their MongoDB skills.  
-- **AI Assistants** – Developing **AI-powered tools** for knowledge management, recruitment, and gamified learning.
-- View [More Projects](https://mlynn.org/projects)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mlynn/)
+[![Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/mlynn)
+[![Website](https://img.shields.io/badge/mlynn.org-4CAF50?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mlynn.org)
+[![Podcast](https://img.shields.io/badge/MongoDB_Podcast-00ED64?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/resources/podcasts)
+[![npm](https://img.shields.io/badge/npm-voyageai--cli-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/voyageai-cli)
+
+</div>
 
 ---
 
-## 🎯 vai – Voyage AI Playground  
-**Command:** `vai` | **Repo:** [github.com/mrlynn/voyageai-cli](https://github.com/mrlynn/voyageai-cli)
+I help developers build modern applications with **AI, vector search, and database technologies**. After 10+ years at MongoDB and 25+ years across enterprise infrastructure, I focus on turning complex tech into things people can actually use — through **hands-on workshops, open-source tools, and Developer Day events**.
 
-A comprehensive toolkit for building **RAG (Retrieval-Augmented Generation)** pipelines using Voyage AI embeddings and MongoDB Atlas Vector Search. Three interfaces: **CLI** (22 commands), **web playground**, and **standalone desktop app** with OS keychain integration.
-
-- ** Web ** - [https://vaicli.com](https://vaicli.com)
-- ** Docs ** - [https://docs.vaicli.com](https://docs.vaicli.com)
-- ** NPM ** - [https://www.npmjs.com/package/voyageai-cli](https://www.npmjs.com/package/voyageai-cli)
-- ** GIT ** - [https://github.com/mrlynn/voyageai-cli](https://github.com/mrlynn/voyageai-cli)
-
-**Highlights:**
-- **End-to-end pipeline** – `vai pipeline ./docs/` from documents to searchable vector DB
-- **5 chunking strategies** – fixed, sentence, paragraph, recursive, markdown-aware
-- **Two-stage retrieval** – embed → vector search → rerank with `vai query`
-- **8 benchmark subcommands** – latency, cost, asymmetric retrieval, quantization
-- **Interactive playground** – 7 tabs: Embed, Compare, Search, Benchmark, Explore, About, Settings
-
-*Community tool – not an official MongoDB or Voyage AI product*
+I also co-host **The MongoDB Podcast** 🎙️ and build open-source tools in my spare time.
 
 ---
 
-## 🛠️ Technologies & Tools  
-- **💾 Databases:** MongoDB, Atlas Vector Search, PostgreSQL (when necessary)  
-- **📡 Backend:** Node.js, Express.js, Python (Flask)  
-- **🎨 Frontend:** React, React Native, Tailwind CSS  
-- **⚙️ DevOps:** GitHub Actions, Vercel, Terraform (for MongoDB deployments)  
-- **🧠 AI & ML:** OpenAI API, GPT-NeoX, RAG-based systems  
-- 🔗 View [More Experience](https://mlynn.org/resume)
+## 🚀 Featured Project: VAI (Voyage AI Toolkit)
+
+**A comprehensive toolkit for building RAG pipelines** using Voyage AI embeddings and MongoDB Atlas Vector Search. Three interfaces: CLI (22 commands), web playground, and standalone desktop app.
+
+| | |
+|---|---|
+| 🌐 **Web** | [vaicli.com](https://vaicli.com) |
+| 📚 **Docs** | [docs.vaicli.com](https://docs.vaicli.com) |
+| 📦 **npm** | [`npm i -g voyageai-cli`](https://www.npmjs.com/package/voyageai-cli) |
+| 💻 **Repo** | [github.com/mrlynn/voyageai-cli](https://github.com/mrlynn/voyageai-cli) |
+
+**What it does:**
+- **End-to-end pipeline** — `vai pipeline ./docs/` from documents to searchable vector DB
+- **5 chunking strategies** — fixed, sentence, paragraph, recursive, markdown-aware
+- **Two-stage retrieval** — embed → vector search → rerank with `vai query`
+- **8 benchmark subcommands** — latency, cost, asymmetric retrieval, quantization
+- **Interactive playground** — 7 tabs: Embed, Compare, Search, Benchmark, Explore, About, Settings
+
+> *Community tool — not an official MongoDB or Voyage AI product*
 
 ---
 
-## 🎤 Speaking & Writing  
-I deliver **technical talks, workshops, and blog content** on **MongoDB, AI, and modern application development**. Some highlights:  
-- 🟢 **AWS re:Invent** – Lightning talk on the **Evolution of Data to Intelligence**  
-- 🟢 **MongoDB Developer Days** – Hands-on training sessions for developers  
-- 🟢 **GitHub Blog** – Writing about **AI, vector search, and database best practices**
-- 🔗 View [More Speaking Engagements](https://mlynn.org/speaking)
+## 🛠️ Tech Stack
 
+<div align="center">
 
----
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Atlas Vector Search](https://img.shields.io/badge/Atlas_Vector_Search-00ED64?style=for-the-badge&logo=mongodb&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![MUI](https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-## 🌱 Fun Projects & Experiments  
-- 🚀 **[vai](https://github.com/mrlynn/voyageai-cli)** – Voyage AI CLI & Playground. Build RAG pipelines with Voyage AI embeddings + MongoDB Atlas Vector Search. `npm i -g voyageai-cli` then `vai playground`
-- 🤖 NetPad.io - An AI-Powered, AI Agentic Workflow Diagraming and builder.  Build Agents... agent workflows visually. [https://netpad.io](https://netpad.io)
-- 🕵️ AI-Powered Recruiting Assistant – A tool that enhances job matching with AI.  
-- 📌 SA Enablement Dashboard – A system for tracking SA training progress.  
-- 🔍 Fraud Detection in Banking – A sample app demonstrating fraud detection with MongoDB - [MongoDBank.com(https://mongodbank.vercel.app)
-- 💬 [DeepDJT](https://deepdjt.com) - Chat with AI POTUS
-- 🆒 [MermaidGPT](https://mermaidgpt.com) - Build Mermaid Diagrams with descriptive statements
-- 🗺️ [AI Project Mapper](https://mrlynn.github.io/ai-project-mapper) - Generate LLM-friendly project summaries to help AI assistants understand your codebase.
-- 🧠 [MongoDB-RAG](https://mongodb-developer.github.io/mongodb-rag) - This library enables developers to efficiently perform similarity search, caching, batch processing, and indexing for fast and accurate retrieval of relevant data.
-- 🔗 View [More Projects](https://mlynn.org/projects)
+</div>
 
 ---
 
-## 📬 Connect With Me  
-- 💼 [LinkedIn](https://www.linkedin.com/in/mlynn/)   
-- 🐦 [Twitter/X](https://twitter.com/mlynn)  
-- 📧 Reach me via GitHub Discussions or Issues!  
+## 📊 GitHub Stats
+
+<div align="center">
+
+<a href="https://github.com/mrlynn">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mrlynn&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0D1117" />
+</a>
+<a href="https://github.com/mrlynn">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrlynn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8" />
+</a>
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=mrlynn&theme=tokyonight&hide_border=true&background=0D1117)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## 🎤 Speaking & Community
+
+- 🟢 **AWS re:Invent** — Lightning talk on the Evolution of Data to Intelligence
+- 🟢 **MongoDB Developer Days** — Hands-on training sessions for developers worldwide
+- 🟢 **The MongoDB Podcast** — Co-host, covering AI, developer tools, and database innovation
+- 🟢 **Content Creator** — Blog posts, tutorials, and educational content on AI + databases
+
+---
+
+## 🌱 Other Projects
+
+| Project | Description |
+|---|---|
+| 🤖 [NetPad.io](https://netpad.io) | AI-Powered Agentic Workflow Diagramming & Builder |
+| 🏦 [MongoDBank](https://mongodbank.vercel.app) | Fraud detection demo app with MongoDB |
+| 💬 [DeepDJT](https://deepdjt.com) | Chat with AI POTUS |
+| 🆒 [MermaidGPT](https://mermaidgpt.com) | Build Mermaid Diagrams from natural language |
+| 🗺️ [AI Project Mapper](https://mrlynn.github.io/ai-project-mapper) | Generate LLM-friendly project summaries |
+| 🧠 [MongoDB-RAG](https://mongodb-developer.github.io/mongodb-rag) | Similarity search, caching & retrieval library |
+
+> [📂 View all projects →](https://mlynn.org/projects) &nbsp;&nbsp;|&nbsp;&nbsp; [📄 Resume →](https://mlynn.org/resume) &nbsp;&nbsp;|&nbsp;&nbsp; [🎤 Speaking →](https://mlynn.org/speaking)
+
+---
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=mrlynn&color=00ED64&style=for-the-badge&label=PROFILE+VIEWS)
+
+*"The best way to learn a technology is to build something real with it."*
+
+</div>
