@@ -1,113 +1,133 @@
 <div align="center">
 
-# Hey, I'm Michael Lynn 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="Michael Lynn — AI Adoption Engineer at Cursor" src="assets/hero-light.svg" width="100%">
+</picture>
 
-### Principal Developer Advocate @ MongoDB | 25+ Years in Enterprise Infrastructure
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mlynn/)
-[![Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/mlynn)
-[![Website](https://img.shields.io/badge/mlynn.org-4CAF50?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mlynn.org)
-[![Podcast](https://img.shields.io/badge/MongoDB_Podcast-00ED64?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/resources/podcasts)
-[![npm](https://img.shields.io/badge/npm-voyageai--cli-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/voyageai-cli)
+**[mlynn.org](https://mlynn.org)** · **[Writing](https://mlynn.org/blog)** · **[Speaking](https://mlynn.org/speaking)** · **[LinkedIn](https://www.linkedin.com/in/mlynn/)** · **[X](https://twitter.com/mlynn)**
 
 </div>
 
+<br>
+
+Fifteen years turning complex ideas into clear talks, open-source projects, and hands-on
+workshops. Lately that means AI-native tooling — retrieval, vector search, and agents
+grounded in real data — and the tools that make any of it legible to the person who has
+to ship it.
+
+Three of those are below, and each one is a working thing you can open in a browser
+before you decide whether to clone it.
+
 ---
 
-I help developers build modern applications with **AI, vector search, and database technologies**. After 10+ years at MongoDB and 25+ years across enterprise infrastructure, I focus on turning complex tech into things people can actually use — through **hands-on workshops, open-source tools, and Developer Day events**.
+## LanceScope
 
-I also co-host **The MongoDB Podcast** 🎙️ and build open-source tools in my spare time.
+**A workbench for reading LanceDB datasets** — schema, versions, indices, fragments and
+rows, with the byte cost of every read shown as you go.
+
+<a href="https://github.com/mrlynn/lancescope">
+  <img src="https://raw.githubusercontent.com/mrlynn/lancescope/main/docs/assets/console-blob-ratio.png" alt="The LanceScope console: a video_blob column marked BLOB — SIDE FILE, 2.65 GB in side files against 69.8 KB of ordinary Lance files, and a finding explaining that the manifest cannot see them." width="100%">
+</a>
+
+A Lance table can hold 2.65 GB of video while a search over it reads none of it. The
+bytes a search touches and the bytes a table holds live in different files, and almost
+nothing shows you both. This does — and then it says what it already knows: ten rules
+over metadata, each carrying the numbers it was derived from. No model is asked, so
+nothing there costs a token.
+
+[**Website**](https://lancescope.mlynn.dev) · [**Live console**](https://demo.lancescope.mlynn.dev/console) · [**Docs**](https://lancescope.mlynn.dev/docs) · [**Repo**](https://github.com/mrlynn/lancescope)
+
+<sub>Python 3.12 · FastAPI · Next.js 16 · 8 pinned Lance readers on ghcr.io · 8 read-only MCP tools · a signed macOS app</sub>
 
 ---
 
-## 🚀 Featured Project: VAI (Voyage AI Toolkit)
+## Claude Triage API
 
-**A comprehensive toolkit for building RAG pipelines** using Voyage AI embeddings and MongoDB Atlas Vector Search. Three interfaces: CLI (22 commands), web playground, and standalone desktop app.
+**Learn the Claude API by building a real support-triage service** — structured outputs,
+tool use, streaming, prompt caching, and evals. Eleven labs, a Python track, an
+instructor kit, and a storefront where your own words get classified live.
+
+<table>
+<tr>
+<td width="50%">
+<a href="https://northwind.mlynn.dev">
+  <img src="https://raw.githubusercontent.com/mrlynn/claude-triage-api/main/assets/readme/shop.jpg" alt="The Northwind Outfitters storefront: a tent pitched at sunrise under the headline Gear that outlasts the trip." width="100%">
+</a>
+<sub><b>The shop.</b> File a ticket and watch it get triaged, then try to break the classifier.</sub>
+</td>
+<td width="50%">
+<a href="https://triage.mlynn.dev/playground">
+  <img src="https://raw.githubusercontent.com/mrlynn/claude-triage-api/main/assets/readme/playground.jpg" alt="The model matrix comparing Opus 5, Sonnet 5 and Haiku 4.5 on accuracy, cost, latency and calibration gap." width="100%">
+</a>
+<sub><b>The playgrounds.</b> Seven of them, rendering real runs rather than illustrations of runs.</sub>
+</td>
+</tr>
+</table>
+
+Four routes, four capabilities, one coherent domain — each route introducing exactly one
+new idea and building on the one before it. The scenario is a company with 4,100 support
+tickets a week and an incident where a child's injury report sat unrouted for three days
+because it opened with "probably nothing." Every design decision traces back to that page.
+
+Day 1 is about four hours and leaves you with a service you can show. Day 2 is for people
+who are going to ship: which model, what happens when the input is hostile, and what
+separates a demo from a service.
+
+[**Take the course**](https://triage.mlynn.dev) · [**Visit the shop**](https://northwind.mlynn.dev) · [**Watch the intro**](https://youtu.be/fhsAmotYggs) · [**Repo**](https://github.com/mrlynn/claude-triage-api)
+
+<sub>TypeScript · FastAPI (Python track) · Next.js · Docusaurus · an eval harness with deterministic scoring and an LLM judge</sub>
+
+---
+
+## VAI — Voyage AI Toolkit
+
+**End-to-end RAG pipelines** on Voyage AI embeddings and MongoDB Atlas Vector Search.
+One command takes a directory of documents to a searchable vector database:
+
+```bash
+npm i -g voyageai-cli
+vai pipeline ./docs/
+```
+
+Five chunking strategies, two-stage retrieval (embed → vector search → rerank), eight
+benchmark subcommands covering latency, cost, asymmetric retrieval and quantization, and
+an interactive playground for the parts that are easier to see than to read about.
+
+[**vaicli.com**](https://vaicli.com) · [**Docs**](https://docs.vaicli.com) · [**npm**](https://www.npmjs.com/package/voyageai-cli) · [**Repo**](https://github.com/mrlynn/voyageai-cli)
+
+<sub>Community tool — not an official MongoDB or Voyage AI product.</sub>
+
+---
+
+## Also on the bench
 
 | | |
 |---|---|
-| 🌐 **Web** | [vaicli.com](https://vaicli.com) |
-| 📚 **Docs** | [docs.vaicli.com](https://docs.vaicli.com) |
-| 📦 **npm** | [`npm i -g voyageai-cli`](https://www.npmjs.com/package/voyageai-cli) |
-| 💻 **Repo** | [github.com/mrlynn/voyageai-cli](https://github.com/mrlynn/voyageai-cli) |
+| [**NetPad**](https://netpad.io) | Agentic workflow diagramming and builder |
+| [**MermaidGPT**](https://mermaidgpt.com) | Mermaid diagrams from a sentence |
+| [**AI Project Mapper**](https://github.com/mrlynn/ai-project-mapper) | LLM-friendly project summaries, so an assistant can understand a codebase it has not read |
+| [**mongodb-erd**](https://github.com/mrlynn/mongodb-erd) | Entity-relationship diagrams inferred from a live MongoDB database |
+| [**MongoDB-RAG**](https://mongodb-developer.github.io/mongodb-rag) | Similarity search, caching and retrieval as a library |
+| [**MacFaceSwap**](https://github.com/mrlynn/MacFaceSwap) | Face swapping on a Mac, because someone asked |
 
-**What it does:**
-- **End-to-end pipeline** — `vai pipeline ./docs/` from documents to searchable vector DB
-- **5 chunking strategies** — fixed, sentence, paragraph, recursive, markdown-aware
-- **Two-stage retrieval** — embed → vector search → rerank with `vai query`
-- **8 benchmark subcommands** — latency, cost, asymmetric retrieval, quantization
-- **Interactive playground** — 7 tabs: Embed, Compare, Search, Benchmark, Explore, About, Settings
-
-> *Community tool — not an official MongoDB or Voyage AI product*
+[**All projects →**](https://mlynn.org/projects)
 
 ---
 
-## 🛠️ Tech Stack
+## Speaking, teaching, and the podcast
 
-<div align="center">
+200+ talks, 50K+ developers, and a strong preference for the kind where everyone opens a
+terminal. **AWS re:Invent** — a lightning talk on the evolution of data to intelligence.
+**MongoDB Developer Days** — hands-on training, run worldwide. **The MongoDB Podcast** —
+co-host, on AI, developer tools, and databases.
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Atlas Vector Search](https://img.shields.io/badge/Atlas_Vector_Search-00ED64?style=for-the-badge&logo=mongodb&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![MUI](https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<a href="https://github.com/mrlynn">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mrlynn&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0D1117" />
-</a>
-<a href="https://github.com/mrlynn">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrlynn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8" />
-</a>
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=mrlynn&theme=tokyonight&hide_border=true&background=0D1117)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 🎤 Speaking & Community
-
-- 🟢 **AWS re:Invent** — Lightning talk on the Evolution of Data to Intelligence
-- 🟢 **MongoDB Developer Days** — Hands-on training sessions for developers worldwide
-- 🟢 **The MongoDB Podcast** — Co-host, covering AI, developer tools, and database innovation
-- 🟢 **Content Creator** — Blog posts, tutorials, and educational content on AI + databases
-
----
-
-## 🌱 Other Projects
-
-| Project | Description |
-|---|---|
-| 🤖 [NetPad.io](https://netpad.io) | AI-Powered Agentic Workflow Diagramming & Builder |
-| 🏦 [MongoDBank](https://mongodbank.vercel.app) | Fraud detection demo app with MongoDB |
-| 💬 [DeepDJT](https://deepdjt.com) | Chat with AI POTUS |
-| 🆒 [MermaidGPT](https://mermaidgpt.com) | Build Mermaid Diagrams from natural language |
-| 🗺️ [AI Project Mapper](https://mrlynn.github.io/ai-project-mapper) | Generate LLM-friendly project summaries |
-| 🧠 [MongoDB-RAG](https://mongodb-developer.github.io/mongodb-rag) | Similarity search, caching & retrieval library |
-
-> [📂 View all projects →](https://mlynn.org/projects) &nbsp;&nbsp;|&nbsp;&nbsp; [📄 Resume →](https://mlynn.org/resume) &nbsp;&nbsp;|&nbsp;&nbsp; [🎤 Speaking →](https://mlynn.org/speaking)
+If you have something to build or want to dig into a collaboration:
+[**book a time →**](https://mlynn.org)
 
 ---
 
 <div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=mrlynn&color=00ED64&style=for-the-badge&label=PROFILE+VIEWS)
-
-*"The best way to learn a technology is to build something real with it."*
-
+<sub><i>The best way to learn a technology is to build something real with it.</i></sub>
 </div>
