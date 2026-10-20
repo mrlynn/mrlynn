@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img alt="Michael Lynn — AI Adoption Engineer at Cursor" src="assets/hero-light.svg" width="100%">
+  <img alt="Michael Lynn — Software Engineer at SpaceXAI" src="assets/hero-light.svg" width="100%">
 </picture>
 
 **[mlynn.org](https://mlynn.org)** · **[Writing](https://mlynn.org/blog)** · **[Speaking](https://mlynn.org/speaking)** · **[LinkedIn](https://www.linkedin.com/in/mlynn/)** · **[X](https://twitter.com/mlynn)**

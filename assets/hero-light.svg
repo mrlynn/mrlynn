@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Michael Lynn — AI Adoption Engineer at Cursor. I help people build with data and AI.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Michael Lynn — Software Engineer at SpaceXAI. I help people build with data and AI.">
   <rect width="1200" height="300" fill="#f0ebe0"/>
 
   <!-- fragment motif: a layout of columns, densest where the reads land -->
@@ -20,7 +20,7 @@
   <rect x="72" y="72" width="4" height="60" fill="#be4e1c"/>
 
   <text x="100" y="122" font-family="Georgia,'Times New Roman',serif" font-size="62" fill="#1a1712">Michael Lynn</text>
-  <text x="100" y="168" font-family="Helvetica,Arial,sans-serif" font-size="21" letter-spacing="2.4" fill="#be4e1c">AI ADOPTION ENGINEER AT CURSOR</text>
+  <text x="100" y="168" font-family="Helvetica,Arial,sans-serif" font-size="21" letter-spacing="2.4" fill="#be4e1c">SOFTWARE ENGINEER AT SPACEXAI</text>
   <text x="100" y="212" font-family="Helvetica,Arial,sans-serif" font-size="23" fill="#635c51">I help people build with data &amp; AI &#8212; talks, workshops,</text>
   <text x="100" y="244" font-family="Helvetica,Arial,sans-serif" font-size="23" fill="#635c51">and open&#8209;source tools you can pull apart.</text>
 </svg>
