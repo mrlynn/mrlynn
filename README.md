@@ -12,13 +12,15 @@
 
 <br>
 
-Fifteen years turning complex ideas into clear talks, open-source projects, and hands-on
-workshops. Lately that means AI-native tooling — retrieval, vector search, and agents
-grounded in real data — and the tools that make any of it legible to the person who has
-to ship it.
+I'm a software engineer at SpaceXAI, working on GTM, revenue operations, and the internal
+tools Customer Success runs on. Alongside that: fifteen years of talks, workshops, and
+open-source projects, and I still do the advocacy and advisory work.
 
-Three of those are below, and each one is a working thing you can open in a browser
-before you decide whether to clone it.
+The through-line is the same either way — build the thing that makes a system legible to
+the person who has to act on it. What a read costs. Where a model's confidence stops
+meaning anything. Which ticket has been sitting too long. The projects below are the
+public half of that, and each one is something you can open in a browser before you
+decide whether to clone it.
 
 ---
 

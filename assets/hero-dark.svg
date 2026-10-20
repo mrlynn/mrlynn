@@ -20,7 +20,7 @@
   <rect x="72" y="72" width="4" height="60" fill="#e8794a"/>
 
   <text x="100" y="122" font-family="Georgia,'Times New Roman',serif" font-size="62" fill="#f0ebe0">Michael Lynn</text>
-  <text x="100" y="168" font-family="Helvetica,Arial,sans-serif" font-size="21" letter-spacing="2.4" fill="#e8794a">SOFTWARE ENGINEER AT SPACEXAI</text>
+  <text x="100" y="168" font-family="Helvetica,Arial,sans-serif" font-size="22" font-weight="bold" letter-spacing="0.5" fill="#e8794a">Software Engineer at SpaceXAI</text>
   <text x="100" y="212" font-family="Helvetica,Arial,sans-serif" font-size="23" fill="#a69e90">I help people build with data &amp; AI &#8212; talks, workshops,</text>
   <text x="100" y="244" font-family="Helvetica,Arial,sans-serif" font-size="23" fill="#a69e90">and open&#8209;source tools you can pull apart.</text>
 </svg>
